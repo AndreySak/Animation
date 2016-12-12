@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
   s.author       = "Jay Abbott"
 
-  s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/j-h-a/Animation.git",
+  s.platform     = :ios, "9.0"
+  s.source       = { :git => "https://github.com/AndreySak/Animation.git",
                      :tag => s.version.to_s }
 
   s.source_files  = "Animation"
